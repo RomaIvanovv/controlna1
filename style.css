@@ -1,0 +1,248 @@
+
+.box1 {
+    margin: 0 auto;
+    width: 80%;
+    background-color: aliceblue;
+    border: 1px solid rgba(128, 128, 128, 0.418);
+    border-radius: 5px;
+    padding: 20px;
+}
+form[name="f1"] {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+input[name="Edit"] {
+    width: 50px;
+    height: 35px;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+input[name="Edit"]:hover {
+    background-color: rgb(238, 157, 5);
+}
+input[name="Style"] {
+    width: 50px;
+    height: 35px;
+    color: white;
+    background-color: rgb(26, 152, 211);
+    border: 1px solid rgb(26, 152, 211);
+    border-radius: 5px;
+    margin-right: 5px;
+}
+input[name="Style"]:hover {
+    background-color: rgb(22, 135, 187);
+}
+.box2 {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 270px;
+    background-color: aliceblue;
+    border: 1px solid rgba(128, 128, 128, 0.418);
+    border-radius: 5px;
+    padding: 20px;
+}
+textarea[name="textarea"] {
+    width: 90%;
+    padding-top: 40px;
+    padding-left: 80px;
+}
+input[name="Add"] {
+    width: 50px;
+    height: 35px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+input[name="Add"]:hover {
+    background-color: rgb(216, 2, 2);
+}
+input[name="Save"] {
+    width: 50px;
+    height: 35px;
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+input[name="Save"]:hover {
+    background-color: rgb(0, 92, 0);
+}
+.form2 {
+    display: none;
+}
+
+.styles {
+    display: none;
+}
+select[name="famaly"] {
+    width: 25%;
+    height: 35px;
+    border: 1px solid rgba(128, 128, 128, 0.418);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+input[name="Color"] {
+    width: 100px;
+    height: 35px;
+    color: white;
+    background-color: rgb(90, 90, 90);
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+input[name="Background"] {
+    width: 120px;
+    height: 35px;
+    color: white;
+    background-color: rgb(90, 90, 90);
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+input[name="Color"]:hover {
+    background-color: rgb(80, 80, 80);;
+}
+input[name="Background"]:hover {
+    background-color: rgb(80, 80, 80);;
+}
+
+.colors, .colors1 {
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 70%;
+    top: 25%;
+    display: none;
+}
+.box {
+    width: 50px;
+    height: 50px;
+}
+.red, .red1 {
+    background-color: red;
+}
+.blue, .blue1 {
+    background-color: blue
+}
+.green, .green1 {
+    background-color: green
+}
+.black, .black1 {
+    background-color: black
+}
+.orange, .orange1 {
+    background-color: orange
+}
+.pink, .pink1 {
+    background-color: pink
+}
+.white, .white1 {
+    background-color: white
+}
+.violet, .violet1 {
+    background-color: violet
+}
+.aqua, .aqua1 {
+    background-color: aqua
+}
+
+.boxTableList {
+    display: none;
+    margin: 0 auto;
+    width: 80%;
+    background-color: aliceblue;
+    border: 1px solid rgba(128, 128, 128, 0.418);
+    border-radius: 5px;
+    padding: 20px 20px;
+}
+
+.table input {
+    width: 80%;
+    height: 30px;
+    margin-top: 10px;
+    border: 1px solid rgb(144, 147, 148);
+    border-radius: 3px;
+    font-size: 14px;
+}
+input[name="TR"] {
+    margin-left: 42px;
+    width: 84%;
+}
+input[name="td"] {
+    margin-left: 42px;
+    width: 83.8%;
+}
+input[name="wtd"] {
+    margin-left: 24px;
+    width: 84.5%;
+}
+input[name="htd"] {
+    margin-left: 20px;
+    width: 84.5%;
+}
+h1 {
+    font-weight: 500;
+}
+.inp3 {
+    height: 50px;
+    width: 100%;
+}
+input[name="wbr"], select {
+    width: 15%;
+    height: 30px;
+    margin-left: 13px;
+    margin-right: 50px;
+    border: 1px solid rgb(144, 147, 148);
+    border-radius: 3px;
+}
+select {
+    height: 35px;
+    font-size: 14px;
+}
+input[name="buttonTable"], input[name="buttonList"] {
+    width: 15%;
+    height: 35px;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+}
+input[name="buttonTable"]:hover, input[name="buttonList"]:hover {
+    background-color: rgb(0, 92, 0);
+}
+.table {
+    display: none;
+}
+
+input[name="li"] {
+    width: 80%;
+    height: 30px;
+    margin-right: 70px;
+    margin-left: 60px;
+    border: 1px solid rgb(144, 147, 148);
+    border-radius: 3px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+select[name="typeMarks"] {
+    width: 80.7%;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+input[name="buttonList"] {
+    width: 12%;
+}
+.list {
+    display: none;
+}
